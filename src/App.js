@@ -32,7 +32,8 @@ function App() {
         <h1 className="text-3xl font-medium mt-5 mb-5">Todolist</h1>
       <div className="flex">
         <input
-          className="input input-bordered w-full max-w-xs mr-3 shadow-md"
+          className="input input-bordered w-full max-w-xs mr-3 shadow-md text-black"
+          placeholder="e.g Finish Exercise"
           type="text"
           value={inputVal}
           onChange={(e) => {
